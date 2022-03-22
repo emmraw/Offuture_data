@@ -6,3 +6,5 @@ st.title("Offuture Graphs")
 
 df = pd.read_excel("offuture_data.xlsx")
 df.head()
+
+
