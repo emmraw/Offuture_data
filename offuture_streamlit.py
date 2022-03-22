@@ -7,4 +7,4 @@ st.title('Offuture Graphs')
 
 graph = df.groupby(df['Order Date'].dt.month)['Sales'].sum()
 st.dataframe(graph)
-st.line_chart(graph)
+st.line_chart(graph) 
